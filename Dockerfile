@@ -1,4 +1,4 @@
 FROM amazoncorretto:11-alpine-jdk
-COPY target/*.jar *.jar
+COPY . .
 #ENTRYPOINT ["java","-jar","/app.jar"]
 #cmd java -jar *.jar
